@@ -1,0 +1,55 @@
+{
+	"IDX.aI.enableInlineCompletion": true,
+	"IDX.aI.enableCodebaseIndexing": true,
+	"pylint.interpreter": [
+		"/home/user/agent-demo/.venv/bin/python"
+	],
+	"black-formatter.path": [
+		"/home/user/agent-demo/.venv/bin/pyink"
+	],
+	"black-formatter.interpreter": [
+		"/home/user/agent-demo/.venv/bin/python"
+	],
+	"editor.rulers": [
+		80
+	],
+	"editor.formatOnPaste": false,
+	"editor.formatOnType": true,
+	"editor.tabSize": 2,
+	"editor.useTabStops": false,
+	"editor.wrappingIndent": "deepIndent",
+	"python.defaultInterpreterPath": "/usr/local/bin/python",
+	"python.testing.unittestEnabled": false,
+	"python.testing.pytestEnabled": true,
+	"[python]": {
+		"editor.formatOnSaveMode": "modificationsIfAvailable",
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "ms-python.black-formatter",
+	},
+	"python.testing.pytestArgs": [
+		"tests"
+	],
+	"black-formatter.args": [
+		"--line-length",
+		"80",
+		"--preview",
+		"--pyink-indentation",
+		"2",
+		"--pyink-use-majority-quotes"
+	],
+	"black-formatter.importStrategy": "fromEnvironment",
+	"isort.args": [
+		"--force-single-line-imports"
+	],
+	"files.watcherExclude": {
+		"**/.git/objects/**": true,
+		"**/.git/subtree-cache/**": true,
+		"**/node_modules/*/**": true,
+		"**/.history/**": true,
+		"**/.mypy_cache/**": true,
+		"**/dist/**": true,
+		"**/.pytest_cache/**": true,
+		"**/*.redis*": true,
+		"**/__pycache__/**": true
+	}
+}
